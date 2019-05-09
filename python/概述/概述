@@ -1,0 +1,9 @@
+1.Python是解释型语言
+
+2.命名规范
+# 模块名称 - all_lower_case
+# 类名称和异常名称 - CamelCase
+# 全局和本地名称 - all_lower_case
+# 函数和方法名称 - all_lower_case
+# 常量 - ALL_UPPER_CASE
+
