@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3702ab68-8033-49d4-9355-962ebea003d5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/feature/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/feature/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/feature/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/feature/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/feature/login的副本.feature" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/feature/login的副本.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/reports/20181212/TESTS-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/reports/20181212/TESTS-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/reports/20181214/TESTS-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/reports/20181214/TESTS-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/steps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/steps/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/steps/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/steps/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/steps/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/steps/profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/steps/suqare.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/steps/suqare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/steps/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/steps/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/oppoa59s/使用说明" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/使用说明" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="使用说明" pinned="false" current-in-tab="true">
+      <file leaf-file-name="使用说明" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/behave/使用说明">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -67,6 +63,7 @@
         <option value="$PROJECT_DIR$/python/oppoa59s/feature/login.feature" />
         <option value="$PROJECT_DIR$/python/oppoa59s/使用说明" />
         <option value="$PROJECT_DIR$/python/behave/使用说明" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -190,7 +187,14 @@
     <entry file="file://$PROJECT_DIR$/python/behave/使用说明">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
