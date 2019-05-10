@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3702ab68-8033-49d4-9355-962ebea003d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/huangzetao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/feature/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/feature/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/feature/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/feature/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/feature/login的副本.feature" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/feature/login的副本.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/reports/20181212/TESTS-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/reports/20181212/TESTS-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/reports/20181214/TESTS-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/reports/20181214/TESTS-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/steps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/steps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/steps/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/steps/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/steps/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/steps/profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/steps/suqare.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/steps/suqare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/steps/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/steps/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/oppoa59s/使用说明" beforeDir="false" afterPath="$PROJECT_DIR$/python/behave/使用说明" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,20 +26,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login的副本.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/oppoa59s/feature/login的副本.feature">
+      <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/behave/feature/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="46" selection-end-column="22" />
+            <state relative-caret-position="45">
+              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/oppoa59s/feature/login.feature">
+      <file leaf-file-name="使用说明" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/behave/使用说明">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="30">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/behave/environment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#25#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,6 +65,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/python/oppoa59s/feature/login.feature" />
+        <option value="$PROJECT_DIR$/python/oppoa59s/使用说明" />
+        <option value="$PROJECT_DIR$/python/behave/使用说明" />
       </list>
     </option>
   </component>
@@ -67,26 +92,6 @@
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="oppoa59s" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="oppoa59s" type="462c0819:PsiDirectoryNode" />
-              <item name="feature" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="oppoa59s" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -142,7 +147,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -158,17 +163,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python/oppoa59s/feature/login的副本.feature">
+    <entry file="file://$PROJECT_DIR$/python/behave/feature/login的副本.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" selection-start-line="28" selection-end-line="46" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/oppoa59s/feature/login.feature">
+    <entry file="file://$PROJECT_DIR$/python/behave/environment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#25#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/behave/feature/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/behave/使用说明">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
