@@ -3,7 +3,7 @@
 
 #关键字with在不再需要访问文件后将关闭。
 # with open("text_files/filename.text")as file_object:
-
+# 对与open函数，必须加上as语句,以便获取文件的引用
 
 # 但是每次都这么写实在太繁琐，所以，Python引入了with语句来自动帮我们调用close()方法：
 with open('foo.txt', 'rb') as f:
