@@ -20,7 +20,6 @@ def minNumberInRotateArray(a):
                 break
         return a[i + 1]
 
-
 a = [4, 5, 1, 2, 3]
-a = []
+a = [3, 4, 5, 1, 2]
 print(minNumberInRotateArray(a))
