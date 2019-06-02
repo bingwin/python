@@ -6,7 +6,8 @@ list2 = [1, 2, 3, 4, 5, 6, 7]
 
 print "list1[0]: ", list1[0]
 print "list2[1:5]: ", list2[1:5]
-print(list1+list2)
+print(list1 + list2)
+print("list1[::-1]", list1[::-1])           # 反向获取
 
 # list是一个可变的有序表，所以，可以往list中追加元素到末尾
 # 列表list相当于 arraylist 可以存放不同的元素
@@ -34,14 +35,14 @@ for i in mot:
 
 # python的一个惯例，如果一个函数对对象进行的时就地改动，那么它就返回None，好让调用者知道传入的参数发生了变动，而且并未产生新的对象.，
 # 例如，random,shuffle函数也遵守了这个惯例
+print("————————————————————————————————")
 li = [3, 4, 5, 67, 8, 10]
-s1 = li.sort()
+s1 = li.sort()              # None
 print(s1)
 print(li)
 li = [3, 4, 5, 67, 8, 10]
 s2 = sorted(li)
 print(s2)
-
 
 # Python包含以下函数:
 # 序号	函数
