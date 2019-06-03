@@ -22,6 +22,7 @@ student = Student("Hugh")
 # print(student.name)     # 报错
 # print(student.score)    # 报错
 # print(student.te)       # 报错
+# print(student._te)      # 不报错
 
 # print(student.__tet1)   # 报错
 # print(student._tet1)    # 报错

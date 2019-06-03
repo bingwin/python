@@ -6,7 +6,23 @@
 # 对与open函数，必须加上as语句,以便获取文件的引用
 
 # 但是每次都这么写实在太繁琐，所以，Python引入了with语句来自动帮我们调用close()方法：
+import time
 with open('foo.txt', 'rb') as f:
     print(f.read())
+
+
+with open('foo.txt', mode='r') as f:
+    for line in f:
+        print(line)
+        time.sleep(0.5)
+
+with open('foo.txt', mode='r') as f:
+    for line in f:
+        print(line, '')
+        time.sleep(0.5)
+
+# with open('foo.txt') as f:
+#         lines = f.readlines()
+#     print(lines)
 
 
