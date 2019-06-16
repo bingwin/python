@@ -8,5 +8,11 @@ from collections import Counter
 c = Counter()
 for ch in 'programming':
     c[ch] = c[ch] + 1
-print(c[ch])
+# print(c[ch])
+print(c)
+
+a = [1, 23, 4, 23, 4, 12]
+for ch in a:
+    c[ch] = c[ch] + 1
+# print(c[ch])
 print(c)

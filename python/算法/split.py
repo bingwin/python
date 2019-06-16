@@ -13,3 +13,18 @@ txt = "Google#Runoob#Taobao#Facebook"
 x = txt.split("#", 1)
 
 print x
+
+# https://www.cnblogs.com/baxianhua/p/8329268.html
+# str.split()
+#
+# 单一分隔符，使用str.split()即可
+#
+# str.split不支持正则及多个切割符号，不感知空格的数量
+#
+# re.split()
+#
+#  多个分隔符，复杂的分隔情况，使用re.split
+#
+# 原型： re.split(pattern, string, maxsplit=0)
+#
+# 通过正则表达式将字符串分离。如果用括号将正则表达式括起来，那么匹配的字符串也会被列入到list中返回。maxsplit是分离的次数，maxsplit=1分离一次，默认为0，不限制次数。

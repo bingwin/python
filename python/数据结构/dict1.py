@@ -110,5 +110,8 @@ req = resp.get(100, 0)
 print(req)
 print(get_req(1000))
 
+prices = {'A': 2, 'B': 1, 'C': 3}
+s = maxprices = sorted(zip(prices.values(), prices.keys()))
+print(s)
 
 

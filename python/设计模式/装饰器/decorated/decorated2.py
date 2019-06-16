@@ -25,6 +25,7 @@ def say_hello():
 def debug_2(code):
     def wrapper(func):
         print "[DEBUG]: enter {}()".format(func.__name__)
+        print(code)
         # print(t)
         # return func()
         return func

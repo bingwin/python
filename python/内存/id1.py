@@ -29,6 +29,11 @@
 # 可变意思是 创建之后可以添加数据的.
 # 不可变意思创建后就不能修改.
 
+# list、set和dictionary 都是可改变的，比如可以通过list.append()，set.remove()，dict['key'] = value对其进行修改，所以它们都是不可哈希的；
+#
+# 而tuple和string是不可变的，只可以做复制或者切片等操作，所以它们就是可哈希的
+
+
 a = 2
 b = 2
 c = a + 0
