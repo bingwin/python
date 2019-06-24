@@ -11,17 +11,19 @@
 # s = "loveleetcode",
 # 返回 2.
 
-# def firstUniqchar(a):
-#     for i in
-#
-#
-#     return False
-#
-#
-# # 转成list转成set 判断长度
-#
-#
-# if __name__ == "__main__":
-#     a = "leetcode"
-#     answer = firstUniqchar()
-#     print(answer)
+
+def firstUniqchar(b):
+    # a = list(b)
+    for i in range(0, len(b)):
+        for j in range(0, len(b)):
+            if i > j:
+                if a[i] == a[j]:
+                    break
+                else:
+                    return a[i]
+
+
+if __name__ == "__main__":
+    a = "eedtcode"
+    answer = firstUniqchar(a)
+    print(answer)
