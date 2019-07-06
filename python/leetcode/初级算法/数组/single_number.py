@@ -23,7 +23,7 @@ def singleNumber(a):
     ret = 0
     for n in a:
         ret = ret ^ n
-        print(ret)
+        # print(ret)
     return ret
 
 

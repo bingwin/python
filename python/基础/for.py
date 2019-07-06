@@ -6,13 +6,12 @@
 for i in range(2, -1, -1):
     print(i)
 
-
 for i in range(2, 0, -1):
     print(i)
 
 print("test")
 
-for i in range(3):
+for i in range(1, 3):   # 输出1和2
     print(i)
 
 #  python 3

@@ -11,7 +11,7 @@
 # s = "loveleetcode",
 # 返回 2.
 
-
+# 自己
 def firstUniqchar(b):
     # a = list(b)
     for i in range(0, len(b)):

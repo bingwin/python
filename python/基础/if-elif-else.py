@@ -6,18 +6,19 @@
 
 
 def if_el(age):
-    if age < 4:
+    if age < 30:
         print(0)
-    elif age < 18:
+    elif age > 20:
         print(5)
-    print(20)
-if_el(20)
+    elif age == 25:
+        print(10)
+if_el(25)
 
 # else:
 #     print(10)
 
 
-for i in range(5):
-    print(i)
+# for i in range(5):
+#     print(i)
 
 

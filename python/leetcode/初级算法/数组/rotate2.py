@@ -42,22 +42,24 @@
 #   [16, 7,10,11]
 #
 
-def rotate2(a):
+def rotate2():
     # len(a[0])
     # print(len(a))
     b = [[], [], [], []]
-    # b[0][0] = 1
-    for i in range(0, len(a)):
-        for j in range(0, len(a)):
-            if i < (len(a) / 2):
-                b[i][j] == a[i][len(a)-i-1]
-            else:
-                b[i][j] == a[len(a)-i-1][i]
-
-    return b
+    b[0][0] = 1
+    print(b[0][0])
+    # for i in range(0, len(a)):
+    #     for j in range(0, len(a)):
+    #         if i < (len(a) / 2):
+    #             b[i][j] == a[i][len(a)-i-1]
+    #         else:
+    #             b[i][j] == a[len(a)-i-1][i]
+    #
+    # return b
 
 
 if __name__ == "__main__":
-    list = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
-    print(list[0][3], list[3][0])
-    print(rotate2(list))
+    # list = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+    # print(list[0][3], list[3][0])
+    # print(rotate2(list))
+    print(rotate2())
