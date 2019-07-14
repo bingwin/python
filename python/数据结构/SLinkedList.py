@@ -13,7 +13,7 @@ e2 = daynames('Wed')
 e3 = daynames('Tue')
 e4 = daynames('Thu')
 
-e1.nextval = e3
+e1.nextval = e3                     # 对象的一个属性是下一个对象
 e3.nextval = e2
 e2.nextval = e4
 print("节点")

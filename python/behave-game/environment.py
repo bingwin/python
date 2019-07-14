@@ -12,11 +12,11 @@ def before_all(context):
 def before_feature(context, feature):
     desired_caps = {}
     desired_caps['platformName'] = 'Android'
-    desired_caps['platformVersion'] = '5.1'
-    desired_caps['deviceName'] = 'A59s_11_A12_180302'
+    desired_caps['platformVersion'] = '9'
+    desired_caps['deviceName'] = 'ONEPLUSA5000_6e48b8db'
     desired_caps['autoGrantPermissions'] = True
     desired_caps['appPackage'] = 'com.kwai.sogame'
-    desired_caps['udid'] = context.userdata.get("udid")
+    # desired_caps['udid'] = context.userdata.get("udid")
     desired_caps['automationName'] = 'UiAutomator2'
     desired_caps['appActivity'] = 'com.kwai.sogame.combus.launch.SogameLaunchActivity'
     desired_caps['systemPort'] = 8201

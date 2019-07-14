@@ -37,6 +37,7 @@ for i in mot:
 # 例如，random,shuffle函数也遵守了这个惯例
 print("————————————————————————————————")
 li = [3, 4, 5, 67, 8, 10]
+
 s1 = li.sort()              # None
 print(s1)
 print(li)
