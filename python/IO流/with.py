@@ -21,8 +21,8 @@ with open('foo.txt', mode='r') as f:
         print(line, '')
         time.sleep(0.5)
 
+# status
 # with open('foo.txt') as f:
 #         lines = f.readlines()
-#     print(lines)
 
 
