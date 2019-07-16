@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite errors="0" failures="0" hostname="huangzetaodeMacBook-Pro.local" name="test.快手小游戏" skipped="0" tests="2" time="83.582494" timestamp="2018-12-12T18:37:21.557744"><testcase classname="test.快手小游戏" name="登录测试" status="passed" time="54.39725"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @login
+  场景: 登录测试
+    假如 登录:"10000119201","9201" ... passed in 36.075s
+    当 拉取抽屉 ... passed in 10.399s
+    那么 点击设置 ... passed in 7.923s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="test.快手小游戏" name="退出测试" status="passed" time="29.185244"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @logout
+  场景: 退出测试
+    假如 账号绑定 ... passed in 5.654s
+    当 退出登录按钮 ... passed in 11.524s
+    那么 退出登录 ... passed in 12.007s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
