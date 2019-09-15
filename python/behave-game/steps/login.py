@@ -11,7 +11,7 @@ def phone_tv_login(context):
     phone_tv_login = context.driver.find_element_by_android_uiautomator(
         'new UiSelector().resourceId("com.kwai.sogame:id/phone_tv")')
     phone_tv_login.click()
-
+    time.sleep(2)
 
 @given(u'登录测试_输入手机号:"{phone}"')
 def phone_user(context, phone):
@@ -31,10 +31,9 @@ def login_phone_container(context):
         'new UiSelector().resourceId("com.kwai.sogame:id/login_phone_next")')
     login_phone_container.click()
 
-
 @given(u'登录测试_输入验证码:"{verification}"')
 def login_code_input(context, verification):
-    time.sleep(2)
+    time.sleep(3)
     login_code_input = context.driver.find_element_by_android_uiautomator(
         'new UiSelector().resourceId("com.kwai.sogame:id/login_code_input")')
     login_code_input.set_value(str(verification))

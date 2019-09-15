@@ -14,8 +14,14 @@ for i in range(0, 15):
 # /usr/local/lib/python2.7/site-packages
 # /Users/huangzetao/venv/lib/python2.7/site-packages
 # /Users/huangzetao/Library/Python/2.7/lib/python/site-packages
-# /Library/Python/2.7/site-packages  安装目录库
+# /Library/Python/2.7/site-packages  默认pip安装目录库
+#
 # Library 资源库
+
+# /Users/huangzetao/PycharmProjects/untitled/venv/lib/python2.7/site-packages       # pycharm安装目录
+# /Users/huangzetao/venv/lib/python2.7/site-packages
+# /Users/huangzetao/.pyenv/versions/3.6.5/lib/python3.6/site-packages
+# /Users/huangzetao/.pyenv/versions/3.6.5/envs/ui_autotest_adr/lib/python3.6/site-packages
 
 # DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
 # Requirement already satisfied: psutil in /Library/Python/2.7/site-packages (5.6.1)

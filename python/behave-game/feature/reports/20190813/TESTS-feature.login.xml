@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite errors="0" failures="0" hostname="huangzetaodeMacBook-Pro.local" name="feature.login.快手小游戏 一加手机" skipped="0" tests="1" time="29.693684" timestamp="2019-08-13T15:05:09.631299"><testcase classname="feature.login.快手小游戏 一加手机" name="登录测试" status="passed" time="29.693684"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @login
+  场景: 登录测试
+    假如 登录测试_获取登录按钮 ... passed in 3.652s
+    假如 登录测试_输入手机号:"10000119201" ... passed in 8.475s
+    假如 登录测试_进入验证码界面 ... passed in 0.998s
+    假如 登录测试_输入验证码:"9201" ... passed in 4.248s
+    假如 登录测试_拉取抽屉 ... passed in 3.166s
+    假如 登录测试_点击设置 ... passed in 2.768s
+    假如 登录测试_账号绑定 ... passed in 1.991s
+    假如 登录测试_返回 ... passed in 2.191s
+    假如 登录测试_返回 ... passed in 2.205s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+输入验证码已测试
+
+]]>
+</system-out></testcase></testsuite>

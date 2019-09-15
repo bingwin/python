@@ -32,6 +32,7 @@ print ('dict[2] = ', dict[2])  # Prints value for 2 key
 print ('tinydict = ', tinydict)  # Prints complete dictionary
 print ('tinydict.keys() = ', tinydict.keys())  # Prints all the keys
 print ('tinydict.values() = ', tinydict.values())  # Prints all the values
+print(tinydict.get('name1', 2))
 
 for i in dict.keys():
     print(i)
@@ -113,5 +114,3 @@ print(get_req(1000))
 prices = {'A': 2, 'B': 1, 'C': 3}
 s = maxprices = sorted(zip(prices.values(), prices.keys()))
 print(s)
-
-

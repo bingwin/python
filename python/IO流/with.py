@@ -26,3 +26,5 @@ with open('foo.txt', mode='r') as f:
 #         lines = f.readlines()
 
 
+# https://www.jianshu.com/p/5b01fb36fd4c
+

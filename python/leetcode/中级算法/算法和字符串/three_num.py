@@ -89,7 +89,6 @@ def three_num_2(a, target):
                     cou += 1
     return l2
 
-
     # return l1
 
 

@@ -48,25 +48,25 @@ def bt_ok(context):
 
 @given(u'个人资料_点击完成')
 def tv_right(context):
-    time.sleep(1)
+    time.sleep(2)
     tv_right = context.driver.find_element_by_android_uiautomator('new UiSelector().resourceId("com.kwai.sogame:id/tv_right")')
     tv_right.click()
 
 @given(u'个人资料_返回')
 def left_iv_btn(context):
-    time.sleep(3)
+    time.sleep(4)
     left_iv_btn = context.driver.find_element_by_android_uiautomator('new UiSelector().resourceId("com.kwai.sogame:id/left_iv_btn")')
     left_iv_btn.click()
 
 @given(u'个人资料_好友')
 def icon_iv(context):
     time.sleep(1)
-    iv_close_invite = context.driver.find_element_by_android_uiautomator('new UiSelector().resourceId("com.kwai.sogame:id/iv_close_invite")')
+    iv_close_invite = context.driver.find_element_by_android_uiautomator('new UiSelector().resourceId("com.kwai.sogame:id/draw_friend_add")')
     iv_close_invite.click()
 
-@given(u'个人资料_切换到广场')
-def tab2(context):
-    utils.utils_tab2(context)
+# @given(u'个人资料_切换到广场')
+# def tab2(context):
+#     utils.utils_tab2(context)
 
 
 

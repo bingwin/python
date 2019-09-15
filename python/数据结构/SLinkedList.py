@@ -56,3 +56,57 @@ e2.nextval = e3
 
 list1.listprint()
 
+
+# 链表
+
+# 表首端添加元素
+# q = LNode(13)
+# q.next = head
+# head = q
+
+# 一般插入
+# q = LNode(13)
+# q.next = pre.next
+# pre.next = q
+
+# 删除头
+# head = head.next
+
+# 一般删除
+# pre.next = pre.next.next
+
+# 按元素定位
+# 链表里寻找满足pred的元素
+# p = head
+# while p is not None and not pred:
+#   p = p.next
+
+# 遍历
+# p = head
+# while p is not None:
+#   print(p.val)
+#   p = p.next
+
+# 链表长度
+# def length():
+#   p,n = head,0
+#   while p is not None:
+#         n += 1
+#         p = p.next
+#   return n
+
+# 建立链表
+# for i in range(2,11)
+#   p.next = Lnode(i)
+#   p = p.next
+
+# 链表反转
+# while self._head is not None:
+#       q = self._head
+#       self._head = q.next     # 摘下首节点
+#       q.next = p
+#       p = q                   # 将刚摘下的结点加入屏p 引用的节点序列
+# self._head = p                # 反转后的节点序列已经做好，重置表头链接
+
+
+

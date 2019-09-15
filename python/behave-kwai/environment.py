@@ -15,10 +15,10 @@ def before_feature(context, feature):
     desired_caps['platformVersion'] = '9'
     desired_caps['deviceName'] = 'ONEPLUSA5000_6e48b8db'
     desired_caps['autoGrantPermissions'] = True
-    desired_caps['appPackage'] = 'com.kwai.sogame'
+    desired_caps['appPackage'] = 'com.smile.gifmaker'
     # desired_caps['udid'] = context.userdata.get("udid")
     desired_caps['automationName'] = 'UiAutomator2'
-    desired_caps['appActivity'] = 'com.kwai.sogame.combus.launch.SogameLaunchActivity'
+    desired_caps['appActivity'] = 'com.yxcorp.gifshow.HomeActivity'
     desired_caps['systemPort'] = 8201
     desired_caps['noReset'] = True
     # desired_caps['app'] = '/Users/huangzetao/Desktop/Sogame-2.5.22-release_DEFAULT.apk'   'HQ5HLFW899999999'

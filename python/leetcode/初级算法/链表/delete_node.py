@@ -29,21 +29,24 @@
 # 不要从你的函数中返回任何结果。
 
 
-# class Node:
-#     def __init__(self, dataval = None):
-#         self.dataval = dataval
-#         self.nextval = None
+class Node:
+    def __init__(self, dataval = None):
+        self.dataval = dataval
+        self.nextval = None
+
+e4 = Node('4')
+e5 = Node('5')
+e1 = Node('1')
+e9 = Node('9')
+
+e4.nextval = e5                     # 对象的一个属性是下一个对象
+e5.nextval = e1
+e1.nextval = e9
 #
-# e4 = Node('4')
-# e5 = Node('5')
-# e1 = Node('1')
-# e9 = Node('9')
-#
-# e4.nextval = e5                     # 对象的一个属性是下一个对象
-# e5.nextval = e1
-# e1.nextval = e9
-#
-# print(e4.nextval.dataval)
+# print(e4.nextval.dataval)       # 5
+# print(e5.nextval.dataval)       # 1
+# print(e1.nextval.dataval)       # 9
+# print(e9.nextval.dataval)
 
 
 # 官方
@@ -53,10 +56,15 @@
 #         self.val = x
 #         self.next = None
 
-class Solution:
-    def deleteNode(self, node):
-        """
-        :type node: ListNode
-        :rtype: void Do not return anything, modify node in-place instead.
-        """
-        node.val, node.next = node.next.val, node.next.next
+def deleteNode(node):
+    """
+    :type node: ListNode
+    :rtype: void Do not return anything, modify node in-place instead.
+    """
+    node.dataval, node.nextval = node.nextval.dataval, node.nextval.nextval
+
+if __name__ == "__main__":
+    deleteNode(e5)
+    print(e4.nextval.dataval)
+    print(e5.nextval.dataval)
+    print(e1.nextval.dataval)

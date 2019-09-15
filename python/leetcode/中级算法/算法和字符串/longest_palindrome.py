@@ -20,17 +20,18 @@ def longest_palindromea(a):
     l3 = []
     for i in range(0, len(a)):
         for j in range(0, len(a)):
-            if i < j:
+            if i <= j:
                 l1 = a[i:j]
                 for k in range(0, len(l1) / 2):
                     if l1[k] == l1[-(k + 1)]:
                         l2.append(l1)
+                        break
                     else:
                         break
-    for i in l2:
-        if len(i) > len(l3):
-            l3 = i
-    return l3
+    # for i in l2:
+    #     if len(i) > len(l3):
+    #         l3 = i
+    return l2
 
 
 if __name__ == "__main__":

@@ -22,3 +22,11 @@ if_el(25)
 #     print(i)
 
 
+var = None
+def fun_not_var(var_data):
+    if not var_data:
+        print('哈哈哈哈')
+    else:
+        print('嘿嘿嘿')
+fun_not_var(var)
+# 在python中 None,  False, 空字符串"", 0, 空列表[], 空字典{}, 空元组()都相当于False

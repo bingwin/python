@@ -11,3 +11,5 @@ except TypeError:
      print "空对象没有长度"
 except NameError:
      print "1空对象没有长度"
+
+
